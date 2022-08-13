@@ -1,4 +1,22 @@
 header{
     background-color: gray;
-    
+    background-color: rgb(31, 30, 30);
+}
+
+header h1{
+    text-align: center;
+    color: greenyellow;
+    padding: 20px 0;
+}
+
+header menu ul li{
+    display: inline-block;
+    color: white;
+    padding: 5px 10px;
+    font-size: 1.5em;
+}
+
+li:hover{
+    background-color: gray;
+    border-radius: 10px;
 }
