@@ -15,7 +15,7 @@ const mongoUrl = `mongodb+srv://guilherme:${dbPassword}@cluster0.jiz8pb1.mongodb
 app.use(cors()) 
 
 var corsOptions = {
-    origin: 'http://localhost:3000',
+    origin: 'http://localhost:3000' || process.env.PORT,
     optionsSuccessStatus: 200
 }
 
