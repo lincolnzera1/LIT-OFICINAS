@@ -17,7 +17,7 @@ const Main = () => {
             setLista(res.data)
             console.log(res.data)
         })
-    },)
+    }, [contador])
     
     
     const incrementar = () => {
@@ -43,7 +43,7 @@ const Main = () => {
                 <p className='paragrafos'>Site criado para aprendizado da biblioteca React para frontend e node.js para backend</p>
 
                 <p>Contador: {contador}</p>
-                <input type="button" value="Incrementar" onClick={requisicao}/>
+                <input type="button" value="Incrementar" onClick={incrementar}/>
 
                 <div className='parceiros'>
                     <p>Parceiros: {}</p>
