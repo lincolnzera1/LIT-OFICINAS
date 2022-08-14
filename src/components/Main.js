@@ -17,7 +17,7 @@ const Main = () => {
             setLista(res.data)
             console.log(res.data)
         })
-    }, [contador])
+    },)
     
     
     const incrementar = () => {
