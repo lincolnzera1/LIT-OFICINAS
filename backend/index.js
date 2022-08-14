@@ -14,12 +14,12 @@ const mongoUrl = `mongodb+srv://guilherme:${dbPassword}@cluster0.jiz8pb1.mongodb
 // Essas linhas de cors permitem o react(localhost:3000) acessar o node(localhost:3001) 
 app.use(cors()) 
 
-var corsOptions = {
-    origin: 'http://localhost:3000' || process.env.PORT,
+/* var corsOptions = {
+    origin: process.env.PORT,
     optionsSuccessStatus: 200
-}
+} */
 
-app.use(cors(corsOptions))
+//app.use(cors())
 //////
 
 app.use(
