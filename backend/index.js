@@ -10,7 +10,7 @@ const dbUser = process.env.DB_USER
 
 const mongoUrl = `mongodb+srv://guilherme:${dbPassword}@cluster0.jiz8pb1.mongodb.net/nodeJourney?retryWrites=true&w=majority`
 
-
+ 
 // Essas linhas de cors permitem o react(localhost:3000) acessar o node(localhost:3001) 
 app.use(cors()) 
 
